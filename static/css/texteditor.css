@@ -1,0 +1,61 @@
+#title {
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-controls {
+    display: flex;
+}
+
+.control-btn-container {
+    display: flex;
+}
+
+.control-btn {
+    margin-left: 8px;
+    width: 50px;
+    height: 100%;
+}
+#file{
+    background: rgb(241, 68, 68);
+    color: rgb(255, 255, 255);
+}
+
+#filename-input {
+    margin-left: 10px;
+}
+
+#content {
+    border-radius: 2px;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    outline: none;
+    min-height: 750px;
+    margin: 30px 0;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+body{
+    background: rgb(7, 139, 78);
+    padding: 50px;
+    background-image: url("https://image.freepik.com/free-vector/monochrome-leaves-background-paper-style-blue-shades_23-2148272318.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:monospace;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    padding: 20px;
+    margin: -60px;
+}
